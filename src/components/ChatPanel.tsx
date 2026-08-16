@@ -1527,7 +1527,7 @@ export default function ChatPanel({
           >
             <Textarea
               ref={textareaRef}
-              className="flex-1 min-h-[40px] max-h-40 resize-none px-4 py-2 bg-surface-0 text-ink placeholder:text-ink-dim placeholder:placeholder:font-normal placeholder:leading-normal border border-line-strong focus:border-line-active focus:outline-none font-normal leading-normal overflow-y-auto overflow-x-auto"
+              className="flex-1 min-h-[40px] max-h-40 resize-none px-4 py-2 bg-surface-0 text-ink placeholder:text-ink-dim placeholder:font-normal placeholder:leading-normal border border-line-strong focus:border-line-active focus:outline-none font-normal leading-normal overflow-y-auto overflow-x-auto"
               placeholder={calibrating ? "Tap an option or type your answer…" : "Type a message..."}
               value={input}
               onChange={handleInput}
